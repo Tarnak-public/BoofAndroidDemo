@@ -159,6 +159,7 @@ public class UndistortDisplayActivity extends DemoBitmapCamera2Activity
 
 			removeDistortion.apply(input,undistorted);
 			ConvertBitmap.boofToBitmap(undistorted, bitmap, bitmapTmp);
+
 		}
 	}
 }
